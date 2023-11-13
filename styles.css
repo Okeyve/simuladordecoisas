@@ -22,7 +22,32 @@ footer {
   font-weight: 300px;
   font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
 }
-
+#timer{
+  position: absolute;
+  top: 40%;
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+}
+#textBox{
+  border-radius: 15px;
+  border: none;
+  padding: 20px 50px;
+  position: absolute;
+  top: 28%;
+  width: 330px;
+  box-sizing: border-box;
+    font-weight: 100px;
+  font-size: 15px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+}
+#resultMessage{
+    position: absolute;
+  top: 58%;
+  font-size: 20px;
+  font-weight: 500px;
+  font-family: 'Work Sans Semibold', 'Work Sans', sans-serif;
+}
 button {
   border-radius: 15px;
   display: flex;
@@ -65,5 +90,5 @@ button.clicked .loading-icon {
 .success {
   background-color: #e74c3c !important;
   transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(231, 76, 60, 0.5);
 }
-
