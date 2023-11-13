@@ -7,7 +7,7 @@ const resultMessage = document.getElementById('resultMessage');
   loadingIcon.style.display = 'inline-block';
   button.innerHTML = '<span class="loading-icon">⌛</span> fazendo';
 
-  const randomTime = Math.floor(Math.random() * (15000 - 3000 + 1) + 3000);
+  const randomTime = Math.floor(Math.random() * (180000 - 1000 + 1) + 1000);
 
   let startTime = Date.now();
   let elapsedTime = 0;
