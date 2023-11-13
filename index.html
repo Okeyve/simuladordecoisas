@@ -3,20 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <title>Simulador de Coisas</title>
+  <title>Simulador de coisas</title>
 </head>
 <body>
-  <text id= "text"> Faça sexo 👍 </text>
-  <footer id= "footer"> um site feito por alguém </footer>
-<button id="myButton" onclick="startLoading()"> 
-  <span id="loadingIcon" class="loading-icon">😏</span>
-  Fazer sexo
-</button>
-
-<script src="script.js"></script>
-
+  <div id="timer"></div>
+  <text id="text"> Faça sexo com... </text>
+  <footer id="footer"> um site feito por alguém </footer>
+  <input type="text" id="textBox" placeholder=" digite o nome da pessoa aqui">
+  <button id="myButton" onclick="startLoading()"> 
+    <span id="loadingIcon" class="loading-icon">😏</span> Fazer 
+  </button>
+  <div id="resultMessage"></div>
+  <script src="script.js"></script>
 </body>
 </html>
