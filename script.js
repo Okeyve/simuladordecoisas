@@ -7,7 +7,7 @@ function startLoading() {
   button.innerHTML = '<span class="loading-icon">⌛</span> fazendo sexo';
 
   // Gera um número aleatório entre 3 e 15 segundos
-  const randomTime = Math.floor(Math.random() * (15000 - 3000 + 1) + 3000);
+  const randomTime = Math.floor(Math.random() * (60000 - 1000 + 1) + 1000);
 
   setTimeout(() => {
     button.classList.remove('clicked');
